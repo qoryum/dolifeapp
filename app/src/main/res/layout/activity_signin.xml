@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.hnf.dolifeapp.Activity.SigninActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="103dp"
+            android:layout_height="101dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logo_putih" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Sign In"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:backgroundTint="@color/colorPutih"
+            android:ems="10"
+            android:hint="Email/Username"
+            android:inputType="text"
+            android:textColor="@color/colorPutih"
+            android:textColorHint="@color/colorAbu" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="@color/colorPutih"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPutih"
+            android:textColorHint="@color/colorAbu" />
+
+
+        <CheckBox
+            android:id="@+id/ch_rememberme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/etPass"
+            android:layout_below="@+id/etPass"
+            android:layout_marginTop="16dp"
+            android:button="@drawable/custom_checkbox"
+            android:text="  Remember"
+            android:textSize="14sp"
+            android:textColor="@color/colorLoading"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/etPass"
+            android:layout_alignTop="@+id/ch_rememberme"
+            android:text="Forgot Password?"
+            android:clickable="true"
+            android:textColor="@color/colorLoading"
+            android:textSize="13sp" />
+
+        <ImageButton
+            android:id="@+id/imgbtnSignin"
+            android:layout_width="250px"
+            android:layout_height="58px"
+            android:layout_below="@+id/ch_rememberme"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            app:srcCompat="@drawable/sign_in" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/ch_rememberme"
+            android:layout_below="@+id/imgbtnSignin"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="32dp"
+            android:text="Don't have an account? "
+            android:textColor="@android:color/background_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:text="Sign Up now"
+            android:clickable="true"
+            android:onClick="signup"
+            android:textColor="@color/colorLoading"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

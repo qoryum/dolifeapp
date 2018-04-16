@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "378139954936",
+    "firebase_url": "https://dolife-4d88c.firebaseio.com",
+    "project_id": "dolife-4d88c",
+    "storage_bucket": "dolife-4d88c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378139954936:android:1d917c6d90973529",
+        "android_client_info": {
+          "package_name": "com.example.hnf.dolifeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378139954936-63jghsua0j1o1i70puu9ld7kitm7hncd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8WMr2YUu1N_mMJdr00EOGDIQV_5nR3L4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
